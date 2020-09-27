@@ -1,53 +1,44 @@
-# DESCRIPTIVE-TITLE Solo Project 
-### A repo made to test Semantic-UI-React's NPM that has a popup modal that display's necessary info.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Things learned:
-* Learned how to make functionality for className "active" in navs and tabs
-* Sharpened React JSX and CSS Flexbox skills.
-* Learned how to combine two personal Solo Projects to make one dynamic project!
+## Available Scripts
 
-### Overall, a productive project which allowed for better understanding of Pop Up Modals.
+In the project directory, you can run:
 
-## Preview of work done:
-### Image of Pop-up-Bar displaying dynamic info and picures
-![image](https://user-images.githubusercontent.com/52723004/93537418-6b6c9c00-f919-11ea-80de-e61a76117757.png)
+### `yarn start`
 
-### Image of the Pop-up-Bar's integrated and dynamic Carousel 
-![image](https://user-images.githubusercontent.com/52723004/93537444-7d4e3f00-f919-11ea-94d4-43ab6a3205a9.png)
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## KEY NOTES: ONLYADDIFYOUNEEDDISCLAIMERS!!!
-* The first Carousel was made with Bootstrap NPM 
-* The second Carousel was made with Alice-Carousel NPM in a `Class` Component 
-* The third Carousel was made with Alice-Carousel NPM in a `Function` Component 
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Steps to recreate:
+### `yarn test`
 
-### In console:
-`
-npm install semantic-ui-react semantic-ui-css
-`
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-`
-npm i react-alice-carousel
-`
+### `yarn build`
 
-### Add these lines to the App.js file:
-```
-import {
-  Checkbox,
-  Sidebar,
-} from 'semantic-ui-react';
-import AliceCarousel from 'react-alice-carousel';
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-import 'semantic-ui-css/semantic.min.css';
-import 'react-alice-carousel/lib/alice-carousel.css';
-```
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-### Choose any example code from the Docs here and adjust to the best fit.
-`
-https://react.semantic-ui.com/usage
-`
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-`
-https://www.npmjs.com/package/react-alice-carousel
-`
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
